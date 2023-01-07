@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+h1{font-size: 56px;
+color: deepskyblue;
+text-align: center;
+font-variant: small-caps}
+h2{font-size: 32px;
+text-align: center;
+color: lime}

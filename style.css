@@ -1,0 +1,97 @@
+.home{
+    background: url('../images/Untitled-8.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.nav{
+    height: 50px;
+    background: deepskyblue;
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul{
+    position: absolute;
+    right: 5px;
+}
+.nav ul li{
+    display: inline-block;
+    font-family: fantasy;
+    color: black;
+}
+.nav ul li a{
+    color: black;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+.home.text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: deepskyblue;
+}
+.about.about-content{
+    margin: 150px auto 0 auto;
+    width: 500px
+}
+.about.about-content h1{
+    text-align: center;
+}
+.about.about-content p{
+    text-align: justify;
+}
+.about.about-content h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumblue;
+}
+.about.about-content p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: limegreen;
+}
+.service.service-content h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: limegreen;
+    margin: 80px auto 0 auto;
+}
+.service-content.card-container ul{
+    padding: 0;
+    display: inline;
+    align-items: center;
+}
+.service-content.card-container ul li{
+    list-style: none;
+    display: inline-table;
+    margin: 20px;
+    width: 300px;
+    align-items: center;
+}
+.service-content.card-container ul li p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: deepskyblue;
+}
+.contact.contact-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.contact.contact-content h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: deepskyblue;
+}
+.contact.contact-content.address-holder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
